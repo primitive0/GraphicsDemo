@@ -1,0 +1,4 @@
+executable(
+  'VkTriangle',
+  'main.cpp',
+)
