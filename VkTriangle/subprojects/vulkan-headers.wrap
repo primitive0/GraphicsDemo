@@ -1,0 +1,6 @@
+[wrap-file]
+directory = Vulkan-Headers-vulkan-sdk-1.4.363.0
+source_url = https://github.com/KhronosGroup/Vulkan-Headers/archive/refs/tags/vulkan-sdk-1.4.363.0.tar.gz
+source_filename = Vulkan-Headers-vulkan-sdk-1.4.363.0.tar.gz
+source_hash = 4a078be12bef21cfebc09d878b77a63cff9d68f899254a0b00d0e37ef73e7f7e
+patch_directory = vulkan-headers

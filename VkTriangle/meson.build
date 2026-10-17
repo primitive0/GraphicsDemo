@@ -6,4 +6,12 @@ project(
   default_options: {'warning_level': '3', 'cpp_std': 'c++26'},
 )
 
+# Use these packages from Wrap, not system ones
+subproject(
+  'glfw',
+  default_options: {'display-api': ['wayland']},
+)
+subproject('vulkan-headers')
+subproject('vk-bootstrap')
+
 subdir('src')
