@@ -39,6 +39,7 @@
               # GLFW's Wayland dependencies
               wayland
               wayland-protocols
+              wayland-scanner
               libxkbcommon
             ];
 
