@@ -17,6 +17,7 @@
         })
           {
             packages = with pkgs; [
+              just
               meson
               ninja
               cmake
